@@ -63,6 +63,8 @@ class QSBK:
 			result = "第%d页\t作者：%s\t赞：%s\n%s" %(page,story[0],story[2],story[1])
 			try:
 				print (result)
+				with open('/skiming/Python/getInfo/test.txt', 'a') as f:
+					f.write(result + '\n\n')
 			except UnicodeEncodeError as e:
 				print (e)
 			
