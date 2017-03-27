@@ -1,2 +1,2 @@
 # getInfo
-# get Bilibili Fans infomation
+# get qiushibaike stories
